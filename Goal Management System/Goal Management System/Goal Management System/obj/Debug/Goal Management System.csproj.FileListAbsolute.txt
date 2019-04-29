@@ -1,0 +1,14 @@
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\bin\Debug\Goal Management System.exe.config
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\bin\Debug\Goal Management System.exe
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\bin\Debug\Goal Management System.pdb
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal_Management_System.Properties.Resources.resources
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal_Management_System.UserControl1.resources
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal Management System.csproj.GenerateResource.cache
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal Management System.csproj.CoreCompileInputs.cache
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal Management System.exe
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal Management System.pdb
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal_Management_System.Form1.resources
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal_Management_System.Roles.resources
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal_Management_System.Goals.resources
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal Management System.csprojAssemblyReference.cache
+C:\Users\Mateen Ahmad\source\repos\Goal Management System\Goal Management System\obj\Debug\Goal_Management_System.Tasks.resources

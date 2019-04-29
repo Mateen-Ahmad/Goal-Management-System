@@ -1,0 +1,7 @@
+C:\Users\Mateen Ahmad\source\repos\Goal Management System - WCF\Goal Management System - WCF\bin\Goal Management System - WCF.dll.config
+C:\Users\Mateen Ahmad\source\repos\Goal Management System - WCF\Goal Management System - WCF\bin\Goal Management System - WCF.dll
+C:\Users\Mateen Ahmad\source\repos\Goal Management System - WCF\Goal Management System - WCF\bin\Goal Management System - WCF.pdb
+C:\Users\Mateen Ahmad\source\repos\Goal Management System - WCF\Goal Management System - WCF\obj\Debug\Goal Management System - WCF.csprojAssemblyReference.cache
+C:\Users\Mateen Ahmad\source\repos\Goal Management System - WCF\Goal Management System - WCF\obj\Debug\Goal Management System - WCF.csproj.CoreCompileInputs.cache
+C:\Users\Mateen Ahmad\source\repos\Goal Management System - WCF\Goal Management System - WCF\obj\Debug\Goal Management System - WCF.dll
+C:\Users\Mateen Ahmad\source\repos\Goal Management System - WCF\Goal Management System - WCF\obj\Debug\Goal Management System - WCF.pdb

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Goal_Management_System___WCF" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Goal_Management_System___WCF" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="CompositeType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BoolValue" type="xs:boolean" />
+      <xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CompositeType" nillable="true" type="tns:CompositeType" />
+  <xs:complexType name="Users">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoleList" nillable="true" type="tns:ArrayOfRoles" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Users" nillable="true" type="tns:Users" />
+  <xs:complexType name="ArrayOfRoles">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Roles" nillable="true" type="tns:Roles" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRoles" nillable="true" type="tns:ArrayOfRoles" />
+  <xs:complexType name="Roles">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GoalList" nillable="true" type="tns:ArrayOfGoals" />
+      <xs:element minOccurs="0" name="RoleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoleType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Roles" nillable="true" type="tns:Roles" />
+  <xs:complexType name="ArrayOfGoals">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Goals" nillable="true" type="tns:Goals" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGoals" nillable="true" type="tns:ArrayOfGoals" />
+  <xs:complexType name="Goals">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GoalName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaskList" nillable="true" type="tns:ArrayOfTasks" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Goals" nillable="true" type="tns:Goals" />
+  <xs:complexType name="ArrayOfTasks">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Tasks" nillable="true" type="tns:Tasks" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTasks" nillable="true" type="tns:ArrayOfTasks" />
+  <xs:complexType name="Tasks">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="TaskName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaskTime" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Tasks" nillable="true" type="tns:Tasks" />
+</xs:schema>
